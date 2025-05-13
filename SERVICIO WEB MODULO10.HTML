@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Validador de Cédula</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="titulo">🛡️ Servicio Web para validar la cédula de identidad y electoral</div>
+
+  <div class="card">
+    <h2>Validador de Cédula</h2>
+    <input type="text" id="cedula" placeholder="Ej. 001-1234567-2" maxlength="13" />
+    <button onclick="handleValidar()">Validar</button>
+    <div class="resultado" id="resultado"></div>
+    <h3>Últimas cédulas válidas:</h3>
+    <ul id="listaCedulas"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
